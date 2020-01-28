@@ -12,7 +12,7 @@ function App() {
   return (
     <GithubState>
       <AlertState>
-        <BrowserRouter>
+        <BrowserRouter basename='react-github_user_search-min-c'>
           <Navbar/>
           <div className="container pt-4">
             <Alert alert={{text: 'Test'}}/>
